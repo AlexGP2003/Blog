@@ -18,6 +18,18 @@ h3 {
     font-size: 2rem;
 }
 
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
 
 /* clases predefinidas */
 
@@ -120,8 +132,38 @@ header {
     background-position: center;
 }
 
+#card-5 {
+    background-image: url("../img/benaja-germann-LlvkUwwoA7s-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-6 {
+    background-image: url("../img/hamdhulla-shakeeb-2vDYo-3kZ3A-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-7 {
+    background-image: url("../img/kristaps-ungurs-xhFBFGEOzAo-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#articulo {
+    background-color: gray;
+}
+
+#pre-footer {
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
 .padding-s {
-    padding: 0.5%;
+    padding: 2%;
 }
 
 footer {
@@ -141,8 +183,5 @@ p {
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
         width: 50%;
-    }
-    #caja-10 {
-        width: 100%;
     }
 }
